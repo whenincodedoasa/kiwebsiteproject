@@ -1,18 +1,7 @@
-* {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
- }
 
- * {
-    background-image: url("spiderweb1.jpg");
+ body {
+    background-image: url"oceanwave.mp4";
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
     }
-
-* {
-    background-color: rgb(255, 255, 255);
-    width: auto;
-    border: 10px black;
-    padding: 5px;
-    margin: 15px;
- }
