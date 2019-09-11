@@ -1,7 +1,40 @@
+.section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.section h1 {
+  text-align: center;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color:#fff;
+  padding: 20px;
+  margin: 15px;
+  z-index: 2;
+  opacity: 0.7;
+}
+ .videocontainer {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+ }
 
- body {
-    background-image: url"oceanwave.mp4";
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    }
+* .coloroverlay {
+position: relative;
+top: 0;
+left: 0;
+background-image: radial-gradient(#fff);
+width: 100%;
+height: 100vh;
+opacity: 0.5;
+ }
+ *{
+  background-image: url(calm.png);
+  background-size:cover;
+}
