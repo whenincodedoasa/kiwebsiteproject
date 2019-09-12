@@ -6,13 +6,14 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+ 
 }
-.section h1 {
+.section, h1 {
   text-align: center;
   font-size: medium;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
-  color:#fff;
+  color:rgb(3, 3, 189);
   padding: 20px;
   margin: 15px;
   z-index: 2;
@@ -22,7 +23,8 @@
    position: absolute;
    top: 0;
    left: 0;
-   width: 100%;
+   width: auto;
+
  }
 
 * .coloroverlay {
@@ -34,7 +36,17 @@ width: 100%;
 height: 100vh;
 opacity: 0.5;
  }
- *{
+ body {
   background-image: url(calm.png);
   background-size:cover;
+}
+p {
+  color: black;
+  font-style: initial, italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+.p1 {
+  color: #fff;
+  font-style: initial, italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
